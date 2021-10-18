@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksApp</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./images/logo.png" alt="BooksApp">
+        </div>
+        <div id="address">
+            <h3>91 TECHNOLOGIES PRIVATE LIMITED</h3>
+             <p>
+                1190-80/1, 26th Main Road, 9th Block <br>
+                Jayanagar, Bengaluru - 560069
+                CIN:U74999KA2019PTC122507
+             </p>               
+        </div>
+    </header>
+    <div id="loading">
+        <div id="loader"></div>
+    </div>
+    <main>
+        <form id="formDiv" method="post" action="abc.html">
+            <a href="#">
+                <img src="./images/form_name.png" alt="attic">
+            </a>
+            
+            <h4>
+                Schecule an online notary now
+            </h4>
+
+            <label for="fullName">
+                <span>Full Name</span>
+                <br>
+                <input id="fullName" type="text" placeholder="Input Text with Label" autocomplete="off" required>
+            </label>
+            <label for="email">
+                <span>Email</span>
+                <br>
+                <input id="email" type="email" placeholder="Input Text with Label" autocomplete="off" required>
+            </label>
+            <label for="phoneNumber">
+                <span>Phone Number</span>
+                <br>
+                <input id="phoneNumber" type="tel" pattern="[0-9]{10}" placeholder="Input Text with Label" autocomplete="off" required>
+            </label>
+
+            <label for="notarisations" id="select">
+
+                <span>How many Notarisations</span>
+
+                <select name="notarisations" id="notarisations" >
+                    <option value="" selected disabled>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+            </label>
+            <label for="signers" id="select">
+
+                <span>How many Signers</span>
+
+                <select name="signers" id="signers" >
+                    <option value="" selected disabled>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+            </label>
+
+            <button type="submit" id="submitButton">
+                Save and continue
+            </button>
+
+        </form>
+        <div id="poster">
+
+        </div>
+    </main>
+
+    <script src="./scripts/script.js">
+
+    </script>
+</body>
+</html>

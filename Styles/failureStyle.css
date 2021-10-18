@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.failed{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fas{
+    font-size: 20em;
+    color: red;
+}
+
+a{
+    
+    color: #000;
+
+
+}
